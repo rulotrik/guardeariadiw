@@ -77,13 +77,14 @@ ul, ol {
     color:#000;
     text-decoration:none;
     padding:10px 12px;
-    display:block;
+    display:inline;
+
     
 }
 
 .nav li a:hover {
     background-color:#84C3D8;
-    border-radius: 10px 10px 10px 10px;
+    border-radius:  20px 20px 20px 20px;
     box-shadow: rgba(0,0,0,0.8) 0 0 10px;
 }
 
@@ -100,9 +101,10 @@ ul, ol {
 
 .nav li ul li {
     position:relative;
-     border-radius: 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
     box-shadow: rgba(0,0,0,0.8) 0 0 10px;
-    margin-bottom: 10px;
+    margin-bottom: auto;
+    
 
     
 }
@@ -110,5 +112,6 @@ ul, ol {
 .nav li ul li ul {
     right:-140px;
     top:0px;
+ 
 }
 
