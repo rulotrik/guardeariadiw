@@ -58,6 +58,7 @@ html, body{
 #f1c2{
 
     margin-top: 15px;
+     
 }
 
 ul, ol {
@@ -67,6 +68,9 @@ ul, ol {
 
 .nav > li {
     float:right;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+    margin-left:15px
 }
 
 .nav li a {
@@ -74,10 +78,13 @@ ul, ol {
     text-decoration:none;
     padding:10px 12px;
     display:block;
+    
 }
 
 .nav li a:hover {
     background-color:#84C3D8;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
 }
 
 .nav li ul {
@@ -87,11 +94,17 @@ ul, ol {
 }
 
 .nav li:hover > ul {
-    display:block;
+ display:block;
+
 }
 
 .nav li ul li {
     position:relative;
+     border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+    margin-bottom: 10px;
+
+    
 }
 
 .nav li ul li ul {
