@@ -1,0 +1,55 @@
+#formIz{
+    float: left;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    margin-top: 0.5%;
+
+}
+
+#formDer{
+    float: right;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    margin-top: 0.5%;
+}
+
+#formIzInside{
+    margin: 15% auto;
+}
+
+#contContacto{
+    margin: 0 auto;
+}
+
+p{
+    color: black;
+    font-family: "ComicSans";
+}
+
+h3{
+    font-family: "ComicSans";         
+} 
+
+#nombre, #mail, #tel, #comentario{
+    float: right;
+}
+
+#formP{
+    float: left;
+    margin-left: 3%;
+}
+
+#pieForm{
+    height: 190px;
+    margin-top: 125px;
+}
+
+#map{
+    margin-top: 2%;
+}
+
+#article{
+    background-color: rgba(0, 0, 0, 0.3);
+}

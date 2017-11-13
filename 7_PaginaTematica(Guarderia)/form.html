@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesForm.css">
+    </head>
+    <body>
+        <div id="header">
+            <div id="f1c1">
+                <a href="index.html"><img src="img/logo.png" id="logo"></a>
+            </div>
+            <div id="f1c2">
+                <ul class="nav">
+                    <li><a href="form.html">Contacto</a></li>
+                    <li><a href="actividades.html">Actividades</a>
+                    </li>
+                    <li><a href="index.html">Inicio</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="article">
+            <div id="formIz">
+               <h3>Formulario</h3><br>
+                <div id="formIzInside">
+                    
+                    <form action="" method="post" name="formulario_eduardo">
+                        <p id="formP">Nombre:</p><input type="text" id="nombre" minlength="2" maxlength="12" required accesskey="1"><br><br>
+                        <p id="formP">Email:</p><input type="email" id="mail" accesskey="2"><br><br>
+                        <p id="formP">Telefono:</p><input type="tel" id="tel" accesskey="3"><br><br>
+                        <p id="formP">Cometarios:</p><textarea name="comentario" id="comentario" cols="20" rows="5" accesskey="4"></textarea><br><br>
+                    </form>
+                    <div id="pieForm">
+                        <input id="btnEnviar" type="submit" value="Enviar"/>
+                    </div>
+                </div>
+            </div>
+            <div id="formDer">
+                <h3>Contacto</h3><br>
+                <div id="contContacto">
+                    <p><strong>Telefono: </strong>628777771</p>
+                    <p>Barrio de la Alegria</p>
+                    <p>Nº 11</p>
+                    <p>39854</p>  
+                </div>
+                <div id="map" style="width:400px;height:400px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2899.8599809792904!2d-3.2190552848442757!3d43.379951679131516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4ef3ca960421b5%3A0x34e44cff5c805da9!2sPaseo+Ocharan+Mazas%2C+2%2C+39700+Castro+Urdiales%2C+Cantabria!5e0!3m2!1ses!2ses!4v1510243825699" width="275" height="275" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>Todos los derechos reservados. <strong>mamaKokeshi.es</strong> ©</p>
+        </div>
+    </body>
+</html>
